@@ -18,16 +18,16 @@ public class Address {
     @Id
     private Integer id;
 
-    @NotEmpty(message = "Area must not be empty")
+//    @NotEmpty(message = "Area must not be empty")
     @Column(nullable = false)
     private String area;
 
-    @NotEmpty(message = "Street must not be empty")
+//    @NotEmpty(message = "Street must not be empty")
     @Column(nullable = false)
     private String street;
 
-    @NotNull(message = "Building number must not be empty")
-    @Positive(message = "Building number must be positive")
+//    @NotNull(message = "Building number must not be empty")
+//    @Positive(message = "Building number must be positive")
     @Column(nullable = false)
     private Integer buildingNumber;
 
